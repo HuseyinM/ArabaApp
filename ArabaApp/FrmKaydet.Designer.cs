@@ -28,115 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lblAd = new System.Windows.Forms.Label();
+            this.lblSoyad = new System.Windows.Forms.Label();
+            this.lblKAd = new System.Windows.Forms.Label();
+            this.lblSifre = new System.Windows.Forms.Label();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.txtKAd = new System.Windows.Forms.TextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.btnKayit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblAd
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lblAd.AutoSize = true;
+            this.lblAd.Location = new System.Drawing.Point(12, 31);
+            this.lblAd.Name = "lblAd";
+            this.lblAd.Size = new System.Drawing.Size(23, 13);
+            this.lblAd.TabIndex = 0;
+            this.lblAd.Text = "Ad:";
             // 
-            // label2
+            // lblSoyad
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 61);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblSoyad.AutoSize = true;
+            this.lblSoyad.Location = new System.Drawing.Point(12, 61);
+            this.lblSoyad.Name = "lblSoyad";
+            this.lblSoyad.Size = new System.Drawing.Size(42, 13);
+            this.lblSoyad.TabIndex = 1;
+            this.lblSoyad.Text = "Soyadı:";
             // 
-            // label3
+            // lblKAd
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 88);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblKAd.AutoSize = true;
+            this.lblKAd.Location = new System.Drawing.Point(13, 88);
+            this.lblKAd.Name = "lblKAd";
+            this.lblKAd.Size = new System.Drawing.Size(67, 13);
+            this.lblKAd.TabIndex = 2;
+            this.lblKAd.Text = "Kullanıcı Adı:";
             // 
-            // label4
+            // lblSifre
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 135);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lblSifre.AutoSize = true;
+            this.lblSifre.Location = new System.Drawing.Point(13, 112);
+            this.lblSifre.Name = "lblSifre";
+            this.lblSifre.Size = new System.Drawing.Size(31, 13);
+            this.lblSifre.TabIndex = 3;
+            this.lblSifre.Text = "Şifre:";
             // 
-            // label5
+            // txtAd
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 157);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.txtAd.Location = new System.Drawing.Point(86, 31);
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(100, 20);
+            this.txtAd.TabIndex = 5;
             // 
-            // textBox1
+            // txtSoyad
             // 
-            this.textBox1.Location = new System.Drawing.Point(54, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 5;
+            this.txtSoyad.Location = new System.Drawing.Point(86, 57);
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(100, 20);
+            this.txtSoyad.TabIndex = 6;
             // 
-            // textBox2
+            // txtKAd
             // 
-            this.textBox2.Location = new System.Drawing.Point(54, 58);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtKAd.Location = new System.Drawing.Point(86, 84);
+            this.txtKAd.Name = "txtKAd";
+            this.txtKAd.Size = new System.Drawing.Size(100, 20);
+            this.txtKAd.TabIndex = 7;
             // 
-            // textBox3
+            // txtSifre
             // 
-            this.textBox3.Location = new System.Drawing.Point(54, 85);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 7;
+            this.txtSifre.Location = new System.Drawing.Point(86, 109);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.Size = new System.Drawing.Size(100, 20);
+            this.txtSifre.TabIndex = 8;
             // 
-            // textBox4
+            // btnKayit
             // 
-            this.textBox4.Location = new System.Drawing.Point(54, 112);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 8;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(54, 139);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 9;
+            this.btnKayit.Location = new System.Drawing.Point(97, 137);
+            this.btnKayit.Name = "btnKayit";
+            this.btnKayit.Size = new System.Drawing.Size(75, 23);
+            this.btnKayit.TabIndex = 9;
+            this.btnKayit.Text = "Kayıt ol";
+            this.btnKayit.UseVisualStyleBackColor = true;
+            this.btnKayit.Click += new System.EventHandler(this.btnKayit_Click);
             // 
             // FrmKaydet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(294, 278);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnKayit);
+            this.Controls.Add(this.txtSifre);
+            this.Controls.Add(this.txtKAd);
+            this.Controls.Add(this.txtSoyad);
+            this.Controls.Add(this.txtAd);
+            this.Controls.Add(this.lblSifre);
+            this.Controls.Add(this.lblKAd);
+            this.Controls.Add(this.lblSoyad);
+            this.Controls.Add(this.lblAd);
             this.Name = "FrmKaydet";
             this.Text = "FrmKaydet";
+            this.Load += new System.EventHandler(this.FrmKaydet_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,15 +137,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label lblAd;
+        private System.Windows.Forms.Label lblSoyad;
+        private System.Windows.Forms.Label lblKAd;
+        private System.Windows.Forms.Label lblSifre;
+        private System.Windows.Forms.TextBox txtAd;
+        private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.TextBox txtKAd;
+        private System.Windows.Forms.TextBox txtSifre;
+        private System.Windows.Forms.Button btnKayit;
     }
 }

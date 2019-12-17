@@ -89,6 +89,7 @@
             this.Controls.Add(this.lblAd);
             this.Name = "FrmKullanici";
             this.Text = "FrmKullanici";
+            this.Load += new System.EventHandler(this.FrmKullanici_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

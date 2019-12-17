@@ -41,8 +41,8 @@
             this.cmbYakit = new System.Windows.Forms.ComboBox();
             this.txtKm = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.btnFiltrele = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,6 +109,7 @@
             this.cmbMarka.Name = "cmbMarka";
             this.cmbMarka.Size = new System.Drawing.Size(121, 21);
             this.cmbMarka.TabIndex = 6;
+            this.cmbMarka.SelectedIndexChanged += new System.EventHandler(this.cmbMarka_SelectedIndexChanged);
             // 
             // cmbModel
             // 
@@ -169,13 +170,6 @@
             this.panel1.Size = new System.Drawing.Size(192, 417);
             this.panel1.TabIndex = 12;
             // 
-            // panel2
-            // 
-            this.panel2.Location = new System.Drawing.Point(210, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(445, 417);
-            this.panel2.TabIndex = 12;
-            // 
             // btnFiltrele
             // 
             this.btnFiltrele.Location = new System.Drawing.Point(15, 235);
@@ -184,6 +178,13 @@
             this.btnFiltrele.TabIndex = 13;
             this.btnFiltrele.Text = "Filtrele";
             this.btnFiltrele.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(210, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(445, 417);
+            this.panel2.TabIndex = 12;
             // 
             // FrmAnasayfa
             // 
@@ -194,6 +195,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "FrmAnasayfa";
             this.Text = "FrmAnasayfa";
+            this.Load += new System.EventHandler(this.FrmAnasayfa_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
